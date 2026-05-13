@@ -230,7 +230,7 @@ This is the DevSecOps loop: infrastructure is treated like application code, rev
 
 ## Running the Projects
 
-### Project 2 — Deploy the VPC
+### Project 1 — Deploy the VPC
 
 ```bash
 cd 02-vpc-infrastructure-as-code/terraform/
@@ -254,7 +254,7 @@ aws ssm start-session --target <instance-id>
 terraform destroy
 ```
 
-### Project 3 — Activate the Pipeline
+### Project 2 — Activate the Pipeline
 
 ```bash
 # 1. Push the project to a GitHub repository
